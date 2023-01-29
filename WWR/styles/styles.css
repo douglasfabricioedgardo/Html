@@ -39,7 +39,7 @@ header {
 }
 nav a:hover {
     background-color: rgba(0, 0, 0, 0.801);
-    color: #fcfbfb;
+    color: #e9a9a9;
 }
 .book, .join{
     background-color: #8c66c9;  
