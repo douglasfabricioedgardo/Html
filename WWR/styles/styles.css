@@ -39,6 +39,7 @@ h2{
 body {
     background-color: #fcfbfb;
     font-family:'chivo mono', monospace; 
+    font-size: 22px;
     margin: 0;
     padding: 0; 
 }
