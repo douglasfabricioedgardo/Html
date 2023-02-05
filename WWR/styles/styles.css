@@ -150,5 +150,5 @@ footer .social img {
 }
 
 main section img {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
