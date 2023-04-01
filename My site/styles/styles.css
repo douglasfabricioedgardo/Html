@@ -250,3 +250,7 @@ footer .social img {
     padding: 35px;
     box-shadow: 5px 5px 10px #FF914D;
 }
+a {
+    text-decoration: none;
+  }
+  

@@ -190,58 +190,98 @@ footer .social img {
     text-align: center;
 }
 
-
-
-
-.rivers-card {
-    grid-column: 2/4;
-    grid-row: 2/3; 
-}
-.camping-card {
-    grid-column: 5/7;
-    grid-row: 2/3;
-}
-.rapids-card {
-    grid-column: 8/10;
-    grid-row: 2/3; 
-}
-.mountains {
-    width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.home-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 10%);
-
-    max-width: 1500px;
+#background {
+    
+    height: 2000px;
+    background-color: #FF914D; 
 }
 
+* {
+    box-sizing: border-box;
+  }
+  .cards {
+    width: 90%;
+    height: 500px;
+    margin: 200px auto;
+    font-size: 0;
+  }
+  
+  .card {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    height: 100%;
+    padding-top: 3em;
+    padding-left: 2em;
+    font-size: 1rem;
+    color: hsl(0 0% 100% / 0.75);
+    font-family: "Lexend Deca", sans-serif;
+  }
+  
+  .card__title {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+  }
+  
+  .card__description {
+    width: 200px;
+  }
+  
+  .card--orange {
+    background-color: #396E94
+  }
+  
+  .card--cyan {
+    background-color: #FF914D
+  }
+  
+  .card--dark-cyan {
+    background-color: #85C7DE
+  }
+  .card--dark-4 {
+    background-color: #396E94
+  }
+  
+  .card--2-1 {
+    background-color: #FF914D
+  }
+  .card--2-2 {
+    background-color: #85C7DE
+  }
+  .card--2-3 {
+    background-color: #396E94
+  }
+  .card--2-4 {
+    background-color: #FF914D
+  }
 
-.msg{
-    grid-column: 6/10;
-    grid-row: 6/7;
-    background-color: #85C7DE; 
-    line-height: 1.5em;
-    padding: 35px;
-    box-shadow: 5px 5px 10px #6f7364;
+ .located {
+    display: flex;
 
-}
+  }
+  .column1{
+    padding-right: 200px;
 
-.card-img{
-    border: 10px solid #FF914D;;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    width: 100%;
-}
+  }
+  .column2{
+    padding-right: 200px;
 
-.card-img{
-    width: 100%;
-}
+  }
+  .column3{
+    padding-right: 200px;
 
+  }
+  .column4{
+    padding-right: 200px;
 
-a {
+  }
+  
+
+  a {
     text-decoration: none;
   }
+  
+  
   
